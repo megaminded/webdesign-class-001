@@ -9,7 +9,7 @@ $b = "6";
 $c = false;
 // echo var_dump($c);
 // exit;
-if ($a = $b) {
+if ($a === $b) {
     echo "Youre right";
 } else {
     echo "Youre wrong";
