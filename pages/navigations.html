@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            width: 50px;
+            height: 20px;
+            background-color: red;
+            padding: 5px 20px;
+        }
+        #child{
+            width: 300px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            visibility: hidden;
+        }
+        #parent:hover #child{
+            visibility: visible;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="parent">
+        Help
+        <div id="child">
+            <a href="">Place & track order</a>
+            <a href="">Help center</a>
+            <a href="">Order cancellation</a>
+            <a href="">Returns and Refunds</a>
+            <a href="">PAYMENT & Jumia account</a>
+        </div>
+    </div>
+</body>
+</html>

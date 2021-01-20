@@ -1,0 +1,53 @@
+:root{
+    --primary: red;
+    --defaultsize: 40px
+}
+p{
+    color: var(--primary);
+    font-size: var(--defaultsize);
+}
+body{
+    /* color: white !important; */
+}
+#amazon{
+    font-size: 100px;
+    color: red;
+    transform: rotate(20deg);
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#windscribe{
+    margin: 200px auto;
+    height: 270px;
+    width: 360px;
+    background-color: #3f4457;
+}
+#title-bar{
+    height: 32px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#overview{
+    background-color: #333743;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+#overview section{
+    border: 1px solid red;
+}
+
+#ip-section{
+    height: 106px;
+    background-color: transparent
+}
+
+#firewall{
+    background-color: #535b6e;
+    height: 68px;
+}
