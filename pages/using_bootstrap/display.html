@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="/css/bootstrap.min.css">
+   <style>
+        .section-a{
+            /* display: none; */
+            /* display: flex; */
+        }
+   </style>
+</head>
+<body>
+    <h4>
+        In bootstrap we can control which element is being displayed and in what device is it being displayed
+    </h4>
+    <p>They include: none, inline, inline-block, flex, etc </p>
+    <p>For example</p>
+    <section class="section-a d-md-flex">
+        <h1>Item 1</h1>
+        <h1>Item 2</h1>
+    </section>
+    <!-- This will be visible only on sm devices -->
+    <section class="section-b d-md-none d-lg-none d-sm-block">
+        <p>This is section-b</p>
+    </section>
+</body>
+</html>
