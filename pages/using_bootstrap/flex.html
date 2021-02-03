@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using flex in bootstrap</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        div {
+            background-color: red;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        div:last-child {
+            background-color: pink;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Enable flex behaviors</h1>
+    <section class="d-flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h1>Direction -> row by default</h1>
+    <section class="d-flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h1>Direction -> row by default, reversed</h1>
+    <section class="d-flex flex-row-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h1>Direction -> column</h1>
+    <section class="d-flex flex-column">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h1>Direction -> column, but reversed</h1>
+    <section class="d-flex flex-column-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h1>Responsive variations</h1>
+    <p>This responsive variation involves the use of <code>sm</code>, <code>md</code>, <code>lg</code>, <code>xl</code>
+        in specifying various screen size/device
+    </p>
+    <p>It can be used in specifying direction, justifying and aligning items</p>
+    <section class="d-sm-flex d-md-flex d-lg-block">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+    <section class="">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+</body>
+
+</html>
